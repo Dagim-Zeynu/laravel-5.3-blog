@@ -8,14 +8,15 @@
 </p>
 
 ##  To run this app
-- First subscribe my youtube channel `dagi tech`
+- First subscribe my youtube channel `youtube.com/dagi tech`
 - Run `composer install`
 - Run `NPM install`
 - Connect with MySQL database
 - Create `.env` file
-  - Generate key `APP_KEY` with `php artisan key:generate`
+  - Generate `APP_KEY` with `php artisan key:generate`
 - Run `php artisan migrate`
 - Seed the database
   - Run `php artisan db:seed`
 - Run `php artisan storage:link`
-- Set up Apache web server
+- Run `php artisan serve`
+
