@@ -35,6 +35,20 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
+
+### To run this app
+- Run `composer install`
+- Create MySQL database
+- Create `.env` file
+  - Update `APP_KEY` with `php artisan key:generate`
+  - Update database connection info
+- Run `php artisan migrate`
+- Seed the database
+  - `default.jpg` and `default-post.png` should have '777' permissions on Mac, but not necessary on Windows
+  - Run `php artisan db:seed`
+- Run `php artisan storage:link`
+- Set up Apache web server
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
