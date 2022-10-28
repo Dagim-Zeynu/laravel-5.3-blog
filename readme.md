@@ -7,7 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-##                                        To run this app
+##  To run this app
+
+
+
+
+
+
+
+
+
+
+
 - Run `composer install`
 - Run `NPM install`
 - Connect with MySQL database
